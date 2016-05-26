@@ -1,5 +1,7 @@
 ## JWX个人微信公众号框架
 
+[![Build Status](https://travis-ci.org/0x584A/jwx_framework.svg?branch=master)](https://travis-ci.org/0x584A/jwx_framework)
+
 #### 安装
 
     还在开发完善中... ：)
