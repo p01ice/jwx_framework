@@ -2,8 +2,6 @@
 language: php
 
 php:
-
-  - '5.5.3'
  
   - '5.6'
 
