@@ -1,0 +1,15 @@
+<phpunit bootstrap="./Bootstrap.php" colors="true">
+	<testsuites>
+		<testsuite name="Jwx Test Suite">
+			<directory>../tests</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist addUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">../src</directory>
+		</whitelist>
+		<blacklist>
+			<directory>../vendor</directory>
+		</blacklist>
+	</filter>
+</phpunit>
