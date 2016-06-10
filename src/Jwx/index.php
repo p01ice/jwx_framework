@@ -17,6 +17,7 @@ switch (CHECKSIGNATURE) {
     case 1:
         require  './Common/function.php';
         valid();
+        exit();
         break;
     case 2:
         // code...
