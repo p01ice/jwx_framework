@@ -8,9 +8,14 @@ class PublicController extends Controller
      * 显示登陆页面
      */
     public function login(){
+        // 会话存在，强制跳转至管理首页
+        if (isset($_SESSION['adminuser'])){
+            header('location:index.php?c=Main&a=index');
+            exit();
+        }
+
         // 显示模板视图
         $this->view->display('Login/index.tpl');
-//        $this->logDebug('Test Debug String');
     }
 
     /**
