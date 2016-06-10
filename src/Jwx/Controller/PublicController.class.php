@@ -10,7 +10,7 @@ class PublicController extends Controller
     public function login(){
         // 显示模板视图
         $this->view->display('Login/index.tpl');
-        $this->logDebug('Test Debug String');
+//        $this->logDebug('Test Debug String');
     }
 
     /**

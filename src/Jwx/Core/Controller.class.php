@@ -84,4 +84,5 @@ class Controller
             SeasLog::debug("debug --> {$msg} ::",array(__CLASS__ => __FUNCTION__));
         }
     }
+    
 }

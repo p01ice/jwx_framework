@@ -33,3 +33,5 @@
 └── README.md
 
 ```
+
+* 首次运行请先与公共好验证绑定，随后将**index.php**目录中的　`define('CHECKSIGNATURE', true)`成false;
