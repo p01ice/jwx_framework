@@ -22,7 +22,7 @@ return array(
     ),
 
     // 微信的明文TOKEN
-    'WX_TOKEN'       => 'weixin',
+    'WX_TOKEN'       => 'wx_token123456',
     // 填写高级调用功能的app id
     'APPID'          => '',
     // 填写加密用的EncodingAESKey
