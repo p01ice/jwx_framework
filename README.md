@@ -33,5 +33,6 @@
 └── README.md
 
 ```
+* 在Config配置文件中设置验证TOKEN及其他设置
 
-* 首次运行请先与公共好验证绑定，随后将**index.php**目录中的　`define('CHECKSIGNATURE', true)`成false;
+* 首次运行请先与公众号验证绑定，随后将**index.php**目录中的　`define('CHECKSIGNATURE', true)`成false;
