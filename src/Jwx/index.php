@@ -8,7 +8,7 @@ define('VERSION', '1.0');
 define('DEBUG', true);
 
 // 开启微信端及服务端校验
-define('CHECKSIGNATURE', true);
+define('CHECKSIGNATURE', false);
 
 // 载入项目核心文件
 
@@ -24,12 +24,12 @@ switch (CHECKSIGNATURE) {
         // code...
         break;
     default:
+        define('Web_TOKEN', VERSION);
         include './Library/Jwx.class.php';
-        define('TOKEN', $GLOBALS['WX_TOKEN']);
         break;
 }
 
-// 判断安装文件是否存在
+// 判断安装文件是否存在 去参考CMS系统的安装
 // if (is_file('./install/install.php')) {
 //     header('Location:/install/install.php');
 // }

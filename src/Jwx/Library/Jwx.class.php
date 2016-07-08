@@ -1,5 +1,5 @@
 <?php
-if (!defined('TOKEN')) {
+if (!defined('Web_TOKEN')) {
     exit('hello,hacker...');
 }
 
